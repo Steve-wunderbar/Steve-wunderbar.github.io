@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- böngésző látja -->
+    <meta charset="UTF-8"> <!-- Betű(karakter)készlet / nem lehet tartalma, hanem beállítások vannak -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- normal méret, nincs felnyagyítva -->
+    <title>Egy super oldal</title> <!-- elem = nyító tec , tartalom , záró tec -->
+</head>
+
+<body>
+    <!--látógatók látják -->
+
+    <ul>
+        <li>
+            <a href="/">Home</a> <!-- (/) mutat a főoldalra -->
+        </li>
+        <li>
+            <a href="/pages/products.html">Products</a>
+        </li>
+        <li>
+            <a href="/pages/orders.html">Orders</a>
+        </li>
+        <li>
+            <a href="/about.html">About</a>
+        </li>
+    </ul>
+
+    <h1>Hello, this is my superb page.</h1> <!-- fejléc -->
+    <h3>Hello, this is my superb page.</h3>
+    <h6>Hello, this is my superb page.</h6>
+
+
+    This is a paragraph.
+    <!-- egymás mellett jelenti meg az oldalon -->
+    This is a paragraph.
+
+    <p>This is a paragraph.</p>
+    <!-- paragraph/bekezdés(új sor bekezdése) 
+                                // Block szintű elem (nem enged mást maga mellé) -->
+
+    <p>This is an <em>very important</em> <b>information.</b></p>
+    <!-- szöveg kiemelt részei 
+    az ((em or i) / (b or strong)) között -->
+    <!-- A liveServer URL-jét másoljuk a Safariba és mostantól ott dolgozunk tovább.
+     // (i-em / b-strong)Inline szintű elem (egymás mellé teszi a karaktereket, amíg el nem fogy a sor.) -->
+
+    <h1>Fantastic Burger</h1>
+    <ul>
+        <!-- unordered list -->
+        <li>Meat lover
+            <ul>
+                <li>pork</li> <!-- (li) csak (ul)-ben lehet beágyazva -->
+                <li>beef</li>
+                <li>lamb</li>
+            </ul>
+        </li>
+        <li>Vegetarian</li> <!-- list item -->
+        <li>Piedone</li>
+    </ul>
+
+    <h2>Steps of order:</h2>
+    <ol>
+        <!-- ordered list -->
+        <li>Choose a burger</li>
+        <li>Buy it</li>
+        <li>Give your address</li>
+        <li>Eat it</li>
+    </ol>
+
+    <a
+        href="https://depositphotos.com/1098427/stock-photo-cheeseburger.html?utm_medium=affiliate&utm_source=api&utm_campaign=&utm_term=4&utm_content=">
+        Barbeque Burger</a>
+
+
+    <p><a href="pages/orders.html">Orders</a></p> <!-- Route URL-->
+
+    <!-- Image from own server copied into img folder-->
+    <!-- target opens the link in a new tap -->
+    <a target="blank"
+        href="https://depositphotos.com/1098427/stock-photo-cheeseburger.html?utm_medium=affiliate&utm_source=api&utm_campaign=&utm_term=4&utm_content=">
+        <img width="100" src="img/hagyma.JPG" alt="Tasty Onion"></a>
+
+
+</body>
+
+</html>

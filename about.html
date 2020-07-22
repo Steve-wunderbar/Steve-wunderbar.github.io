@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a href="/">Home</a>
+        </li>
+        <li>
+            <a href="/pages/products.html">Products</a>
+        </li>
+        <li>
+            <a href="/pages/orders.html">Orders</a>
+        </li>
+        <li>
+            <a href="/about.html">About</a>
+        </li>
+    </ul>
+
+    <h1>About</h1>
+
+    <table><!-- táblázat -->
+        
+
+
+        <caption>Opening Hours</caption>
+
+        <thead>
+            <th>Day</th><!-- oszlopok fejlécei -->
+            <th>Open</th>
+            <th>Closed</th>
+        </thead>
+
+        <tbody><!-- Ha van a táblázatnak fejléce (thead), akkor az adatoknak testben (tbody) kell szerepelniük.-->
+            
+            <tr><!-- sorok -->
+                
+
+                <td>Monday - Friday</td> <!-- cellák, amiből lesznek az oszlopok -->
+                <td>09:00</td>
+                <td rowspan="2">21:00</td> <!-- kinyujtja a cellát függőlegesen és középre húzza.
+                                                (lásd web inspectort!-->
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>10:00</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td colspan="2">Closed</td><!-- kinyujtja az oszlopot vízszintesen.(lásd web inspectort. -->
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">&copy: 2020</td><!-- kinyujtja az oszlopot vízszintesen a táblázat 
+                                                     teljes szélességre.(lásd web inspectort. -->
+            </tr>
+        </tfoot>
+
+
+    </table>
+</body>
+
+</html>
